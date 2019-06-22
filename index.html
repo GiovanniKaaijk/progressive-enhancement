@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <noscript>
+        <link rel="stylesheet" href="noscript.css">
+    </noscript>
+</head>
+<body>
+    <form>
+       <fieldset class="step current-step">
+            <label for="name"> Voornaam</label>
+                <input type="text" id="name" placeholder="Gio">
+            <label for="age"> Leeftijd</label>
+                <input type="text" id="age" placeholder="18">
+            <div>
+                <button type="button" class="next first">Volgende</button>
+            </div>
+        </fieldset>
+        <fieldset class="step current-step">
+            <label for="hobby"> Hobby</label>
+                <input type="text" id="hobby" placeholder="Hockey">
+            <label for="nation"> Afkomst</label>
+                <input type="text" id="email" placeholder="Nederland">
+            <div>
+                <button type="button" class="prev">Vorige</button>
+                <button type="button" class="next">Volgende</button>
+            </div>
+        </fieldset>
+        <fieldset class="step current-step">
+            <label for="phone"> Telefoonnummer</label>
+                <input type="text" id="phone" placeholder="+31 6 13254769">
+            <label for="place"> Woonplaats</label>
+                <input type="text" id="place" placeholder="Amersfoort">
+            <div>
+                <button type="button" class="prev">Vorige</button>
+                <button type="submit" class="submit">Versturen</button>
+            </div>
+        </fieldset>
+        <div>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
